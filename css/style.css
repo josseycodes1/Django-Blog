@@ -5,7 +5,7 @@
     --Monserrat: 'Monserrat', sans-serif;
     --dark: #3c393d;
     --exDark: #2b2b2b;
-    --blue: #4285f4;
+    --blue: #3878e0;
 }
 *{
     padding: 0;
@@ -46,7 +46,7 @@ header{
     justify-content: stretch;
 }
 .navbar{
-    background: rgba(0, 0, 0, 0.6);
+    background: rgb(255, 0, 0);
     padding: 1.2rem;
 }
 .navbar-brand{
@@ -92,7 +92,7 @@ header{
 }
 .banner-title span{
     font-family: var(--OpenSans);
-    color: var(--exDark);
+    color: rgb(255, 0, 0);
 }
 .banner p{
     padding: 1rem 0 2rem 0;
@@ -101,6 +101,7 @@ header{
     font-family: var(--Monserrat);
     font-weight: 300;
     word-spacing: 2px;
+    color: #fff;
 }
 
 /* Form */
@@ -192,6 +193,7 @@ form {
 .title{
     text-align: center;
     padding: 1rem 0;
+    color: rgb(255, 0, 0);
 }
 .title h2{
     font-family: var(--OpenSans);
@@ -258,6 +260,7 @@ form {
     text-decoration: none;
     text-transform: capitalize;
     font-family: var(--OpenSans);
+    color: rgb(255, 0, 0);
 }
 
 
@@ -276,7 +279,7 @@ form {
 
 
 
-/* article page  */
+/* eachpost page  */
 
 .article-info{
     padding: 10px;
@@ -301,7 +304,7 @@ form {
 .tag{
     display:inline-block;
     color:#fff;
-    background-color: #888;
+    background-color: rgb(255, 0, 0);
     border-radius: 5px;
     margin: 2px;
     padding: 2px 5px;
@@ -330,14 +333,14 @@ form {
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
-    background-color: #4285f4;
+    background-color: rgb(255, 0, 0);
     border-radius: 5px;
 }
 
 
 /* footer */
 footer{
-    background: var(--exDark);
+    background: rgb(255, 0, 0);
     color: #fff;
     text-align: center;
     padding: 2rem 0;
