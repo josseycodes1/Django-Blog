@@ -1,5 +1,7 @@
 ## Build A Blog With Django
 
+->create a gitignore file. push and commit it to github
+
 -> Create Virtual environment
 ```bash
 # Windows
@@ -15,27 +17,34 @@ python -m venv env
 # Linux and Mac
 source env/bin/activate
 ```
+Install Django
+`python -m pip install django`
+Test Django
+`python -m django --version`
+
 
 -> Install Requirements
 ```bash
 pip install -r requirements.txt
+or
+pip freeze > requirements.txt
 
 ```
 
 -> Create Django project in the present directory
 ```bash
 # the '.' tells python to create the project in the present folder
-django-admin startproject core .
+django-admin startproject main .
 
 ```
 
 -> Create Blog app
 ```bash
-python manage.py startapp blog
+python manage.py startapp blogsite
 
 ```
 
--> Register blog app in project settings file
+-> Register blog app in project settings.py file
 ```py
 
 INSTALLED_APPS = [
@@ -47,7 +56,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     # register blog here
-    'blog',
+    'blogsite',
 ]
 
 ```
