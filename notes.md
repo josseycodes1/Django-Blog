@@ -1,7 +1,5 @@
 ## Build A Blog With Django
 
--> Download [starter files for this project](https://github.com/Academy-Omen/django-blogx/tree/starter)
-
 -> Create Virtual environment
 ```bash
 # Windows
