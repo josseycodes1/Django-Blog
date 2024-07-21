@@ -82,6 +82,51 @@ target/
 profile_default/
 ipython_config.py
 
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Virtual Environment
+venv/
+env/
+.venv/
+.env/
+
+# Django
+*.log
+*.pot
+*.pyc
+*.mo
+*.cache
+*.coverage
+.coverage.*
+*.cover
+*.log
+*.sql
+*.sqlite3
+db.sqlite3
+
+# Environments
+.env
+.env.*
+
+# Django Migrations
+*/migrations/*
+
+# Media
+media/
+staticfiles/
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+
 # pyenv
 #   For a library or package, you might want to ignore these files since the code is
 #   intended to run in multiple environments; otherwise, check them in:
